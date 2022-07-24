@@ -1,0 +1,38 @@
+body {
+    background-color: orange;
+    color: azure;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#container {
+    font-size: 7vw;
+}
+
+#timerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    text-transform: uppercase;
+    color: azure;
+    background-color: transparent;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 6px;
+    padding: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
+}
